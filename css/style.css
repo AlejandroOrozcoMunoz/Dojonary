@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(179, 179, 179)  
+}
+
+nav {
+    width: 1000px;
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+h1 {
+    width: 200px;
+    font-size: 350%;
+}
+.box {
+    width: 400px;
+    height: 20px;
+}
+.sign   {
+    width: 0px;
+    height: 30px;
+    
+}
+nav ul {
+    list-style:none;
+}   
+nav ul li a {
+    width: 200px;
+    height: 200px;
+    font-size: 100%;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border: black solid;
+    list-style: none;
+}
+
+main{
+   display: flex;
+    margin-bottom: 40px;
+}
+.ninja {
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    background-color: whitesmoke;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-right: 20px;
+
+}
+.ninja-body {
+    align-content:space-between;
+}
+
+p {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.img {
+    height: 15px;
+} 
+
+
+
+.dojo   {
+    width: 300px;
+    height:150px;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.definition {
+    width: 300px;
+    margin: 20px;
+}
+
+.h2 {
+    font-family: 50%;
+}
+
+button {
+    margin-top: 20px;
+    width: 50px;
+
+}
+
+.b1 
+{
+    height: 20px;
+    width: 250px;
+    align-items: center;
+    margin: 20px;
+    margin-left: 30px;
+   
+}
+
+.sign {
+    width: 150px;
+    color: white;
+    background-color: blue;
+
+}
