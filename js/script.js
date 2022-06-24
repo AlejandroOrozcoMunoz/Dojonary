@@ -7,3 +7,9 @@ function cambiar (element) {
     element.innerText = "Sign Out";
 }
 
+function like (click) {
+    var button = click.innerText
+    alert("Ninja was liked")
+
+}
+
